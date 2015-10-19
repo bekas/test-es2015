@@ -1,0 +1,4 @@
+export let sum = (x,y) => x + y;
+console.log(sum(1,2));
+console.log(sum.name);
+

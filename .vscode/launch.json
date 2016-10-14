@@ -7,15 +7,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch let.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/let.js",
+			"program": "${workspaceRoot}/src/let.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
@@ -33,15 +33,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch array.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/array.js",
+			"program": "${workspaceRoot}/src/array.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
@@ -59,15 +59,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch func.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/func.js",
+			"program": "${workspaceRoot}/src/func.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
@@ -85,15 +85,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch obj.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/obj.js",
+			"program": "${workspaceRoot}/src/obj.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
@@ -111,15 +111,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch string.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/string.js",
+			"program": "${workspaceRoot}/src/string.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}/",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
@@ -137,15 +137,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch oop.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/oop.js",
+			"program": "${workspaceRoot}/src/oop.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}/",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
@@ -163,15 +163,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch iter.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/iter.js",
+			"program": "${workspaceRoot}/src/iter.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
@@ -189,15 +189,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch promise.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/promise.js",
+			"program": "${workspaceRoot}/src/promise.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}/",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
@@ -215,15 +215,15 @@
 			// Name of configuration; appears in the launch configuration drop down menu.
 			"name": "Launch generators.js",
 			// Type of configuration. Possible values: "node", "mono".
-			"type": "node",
+			"type": "node2",
 			// Workspace relative or absolute path to the program.
-			"program": "lib/generators.js",
+			"program": "${workspaceRoot}/src/generators.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
 			"args": [],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.
-			"cwd": ".",
+			"cwd": "${workspaceRoot}",
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.

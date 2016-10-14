@@ -1,3 +1,5 @@
+'use strict'
+
 function* generateSequence1() {
   yield 1;
   yield 2; 

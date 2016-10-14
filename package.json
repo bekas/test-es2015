@@ -2,9 +2,7 @@
     "name": "VSCode_ES6",
     "version": "0.0.1",
     "devDependencies": {
-        "babel": "*",
-        "babel-runtime": "*",
         "tsd": "*"
     },
-    "main": "lib/let.js"
+    "main": "src/let.js"
 }

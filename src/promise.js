@@ -1,3 +1,5 @@
+'use strict'
+
 var promise1 = new Promise((resolve, reject) => {
   setTimeout(() => {
     reject(new Error("время вышло!"));
@@ -23,24 +25,27 @@ var promise3 = new Promise((resolve, reject) => {
 	}, 1000);
 });
 
-promise3.then(result=>{
+promise3.then( result => {
 	console.log(result);
 	return new Promise((resolve, reject) => {
-	setTimeout(()=>{
-		resolve(result + '-second');
-	}, 1000);
+		setTimeout(()=>{
+			resolve(result + '-second');
+		}, 1000);
 	});
 })
-.then(result=>{
+.then(result => {
 	console.log(result);
 	return result + '-third';
 })
-.then(result=>{
+.then(result => {
 	console.log(result);
 	throw(new Error(result + 'error'));
-	
 })
-.catch(error=>{
+.then(result => {
+	console.log(result);
+	return result + '-third';
+})
+.catch(error => {
 	console.log(error);
 });
 

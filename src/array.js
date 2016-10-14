@@ -1,3 +1,5 @@
+'use strict'
+
 const greetings = ['Welcome', 'Willkommen', 'Hey', 'Gruezi'];
 
 let [a, b,...c] = greetings;
@@ -9,4 +11,4 @@ function func(...c){
     console.log(c);
 }
 
-func(10,12);
+func(10, 12);
